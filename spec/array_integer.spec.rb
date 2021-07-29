@@ -29,4 +29,11 @@ RSpec.describe ArrayInteger do
 
         expect(result).to eq [1, 3, 0]
     end
+    it 'input [9,9] return [1,0,0]' do
+        integer = ArrayInteger.new
+
+        result = integer.transform([1, 2, 9])
+
+        expect(result).to eq [1, 3, 0]
+    end
 end
