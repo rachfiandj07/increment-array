@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-07-30T14:06:24+07:00">2021-07-30T14:06:24+07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-07-30T16:54:06+07:00">2021-07-30T16:54:06+07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.61
+         2.03
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>31</b> relevant lines,
-    <span class="green"><b>31</b> lines covered</span> and
+    <b>34</b> relevant lines,
+    <span class="green"><b>34</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -84,11 +84,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#750add2ed0a517fbbf843de3b8bc7efb98adbba8" class="src_link" title="src/array_integer.rb">src/array_integer.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">23</td>
             <td class="cell--number">12</td>
-            <td class="cell--number">9</td>
-            <td class="cell--number">9</td>
+            <td class="cell--number">12</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">3.11</td>
+            <td class="cell--number">3.92</td>
             
           </tr>
         
@@ -583,8 +583,8 @@
     
 
     <div class="t-line-summary">
-      <b>9</b> relevant lines.
-      <span class="green"><b>9</b> lines covered</span> and
+      <b>12</b> relevant lines.
+      <span class="green"><b>12</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -624,18 +624,18 @@
 
             
 
-            <code class="ruby">        last_index = int.length - 1</code>
+            <code class="ruby">        last_index = int.length - 1 # 2</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="4">
-            <span class="hits">5</span>
+          <li class="never" data-hits="" data-linenumber="4">
+            
             
 
             
 
-            <code class="ruby">        int[last_index] = int[last_index] + 1</code>
+            <code class="ruby">        </code>
           </li>
         </div>
       
@@ -646,45 +646,111 @@
 
             
 
-            <code class="ruby">        if int[last_index] &gt; 9</code>
+            <code class="ruby">        int.each do  |value|</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="6">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="7" data-linenumber="6">
+            <span class="hits">7</span>
             
 
             
 
-            <code class="ruby">            int[last_index] = int[last_index] % 10</code>
+            <code class="ruby">            int[last_index] = int[last_index] + 1 # 10</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="7">
-            <span class="hits">2</span>
+          <li class="never" data-hits="" data-linenumber="7">
+            
             
 
             
 
-            <code class="ruby">            next_last_index = last_index - 1</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="8">
-            <span class="hits">2</span>
+          <li class="covered" data-hits="7" data-linenumber="8">
+            <span class="hits">7</span>
             
 
             
 
-            <code class="ruby">            int[next_last_index] += 1</code>
+            <code class="ruby">            if int[last_index] &gt; 9</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="covered" data-hits="3" data-linenumber="9">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">                int[last_index] = int[last_index] % 10 # 10 % 10 = 0</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">            else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="4" data-linenumber="11">
+            <span class="hits">4</span>
+            
+
+            
+
+            <code class="ruby">                break</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby">            end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="3" data-linenumber="14">
+            <span class="hits">3</span>
+            
+
+            
+
+            <code class="ruby">            last_index = last_index - 1</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="15">
             
             
 
@@ -695,7 +761,62 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="5" data-linenumber="10">
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="5" data-linenumber="17">
+            <span class="hits">5</span>
+            
+
+            
+
+            <code class="ruby">        if last_index == -1</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">            int.unshift(1)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">        end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="5" data-linenumber="21">
             <span class="hits">5</span>
             
 
@@ -706,7 +827,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="11">
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
@@ -717,7 +838,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="12">
+          <li class="never" data-hits="" data-linenumber="23">
             
             
 
