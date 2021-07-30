@@ -32,8 +32,8 @@ RSpec.describe ArrayInteger do
     it 'input [9,9] return [1,0,0]' do
         integer = ArrayInteger.new
 
-        result = integer.transform([1, 2, 9])
+        result = integer.transform([9,9])
 
-        expect(result).to eq [1, 3, 0]
+        expect(result).to eq [1, 0, 0]
     end
 end

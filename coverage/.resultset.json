@@ -1,0 +1,66 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/naufalrdj/Desktop/Yayasan Anak Bangsa Bisa by Gojek/technical_2/tdd-array-integer-increment/spec/array_integer.spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/naufalrdj/Desktop/Yayasan Anak Bangsa Bisa by Gojek/technical_2/tdd-array-integer-increment/src/array_integer.rb": {
+        "lines": [
+          1,
+          1,
+          5,
+          5,
+          5,
+          2,
+          2,
+          2,
+          null,
+          5,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1627628784
+  }
+}
